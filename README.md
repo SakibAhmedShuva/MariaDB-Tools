@@ -278,32 +278,3 @@ Please ensure your code follows a consistent style and includes clear documentat
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Next Steps
-
-1. **Create `requirements.txt`:**
-   In your activated virtual environment, run:
-   ```bash
-   pip freeze > requirements.txt
-   ```
-   This will capture the exact versions of the libraries you are using.
-
-2. **Create `.gitignore`:**
-   If you don't have one, create a `.gitignore` file in your project root with at least:
-   ```gitignore
-   .env
-   venv/
-   __pycache__/
-   *.pyc
-   *.csv
-   downloaded_db_tables_csv/
-   downloaded_csvs/
-   *.ipynb_checkpoints
-   ```
-
-3. **Add a `LICENSE` file:**
-   If you choose MIT, create a file named `LICENSE` (no extension) and add the MIT license text.
-
-4. **Review and Customize:** Read through this README and customize any placeholders (like example table names, paths, or specific details about your project's intent).
